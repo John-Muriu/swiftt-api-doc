@@ -36,28 +36,28 @@ Send and receive SMS to more than 300 million mobile subscribers across Africa.
   //     </>
   //   ),
   // },
-  {
-    title: 'USSD',
-    Svg: require('@site/static/img/hash.svg').default,
-    description: (
-      <>
-       Build dynamic, scalable, fully featured USSD applications.
+  // {
+  //   title: 'USSD',
+  //   Svg: require('@site/static/img/hash.svg').default,
+  //   description: (
+  //     <>
+  //      Build dynamic, scalable, fully featured USSD applications.
 
 
-      </>
-    ),
-  },
-  {
-    title: 'Whatsapp',
-    Svg: require('@site/static/img/hash.svg').default,
-    description: (
-      <>
-       Build dynamic, scalable, fully featured Whatsapp.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: 'Whatsapp',
+  //   Svg: require('@site/static/img/hash.svg').default,
+  //   description: (
+  //     <>
+  //      Build dynamic, scalable, fully featured Whatsapp.
 
 
-      </>
-    ),
-  },
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({Svg, title, description}) {
