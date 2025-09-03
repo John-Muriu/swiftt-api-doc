@@ -11,7 +11,7 @@ Swifttdial 's amazing APIs empower businesses and developers to build more than 
 
 
 🔗 Base URL
-https://app.swifttdial.com/api/v1
+https://api-v2.swifttdial.com/api/v1
 
 
 ⚠️ Note: All SMS sending endpoints require a valid Bearer Token received from the authentication endpoint.

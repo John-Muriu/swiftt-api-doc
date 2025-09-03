@@ -22,7 +22,7 @@ Authenticate using your registered email and password to receive a **Bearer Toke
 
 
 EXPAMPLE RESPONSE
-curl --location 'https://app.swifttdial.com/api/v1/authenticate' \
+` curl --location https://api-v2.swifttdial.com/api/v1/authenticate' \
 --data-raw '{
   "email": "myemail@email.com",
   "password": "mypassword"
