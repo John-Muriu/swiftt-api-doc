@@ -29,7 +29,9 @@ Send a message to a single recipient instantly. Ideal for notifications, alerts,
 
 ## Example Request
 ```bash
-curl --location 'https://api-v2.swifttdial/api/v1/send/single/sms' --header 'Authorization: Bearer <token>' --data '{
+curl --location 'https://api-v2.swifttdial/api/v1/send/single/sms' 
+--header 'Authorization: Bearer <token>'
+--data '{
   "sender": "mysender",
   "msisdn": "25471234567",
   "message": "Hello world"
