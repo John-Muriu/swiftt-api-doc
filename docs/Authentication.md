@@ -18,12 +18,17 @@ Authenticate using your registered email and password to receive a **Bearer Toke
   "email": "myemail@email.com",
   "password": "mypassword"
 }
+```
+---
 
-
-
-EXPAMPLE RESPONSE
-` curl --location https://api-v2.swifttdial.com/api/v1/authenticate' \
---data-raw '{
+##### EXPAMPLE RESPONSE
+curl
+```curl
+--location https://api-v2.swifttdial.com/api/v1/authenticate' \
+--data-raw 
+'{
   "email": "myemail@email.com",
   "password": "mypassword"
 }'
+```
+---
