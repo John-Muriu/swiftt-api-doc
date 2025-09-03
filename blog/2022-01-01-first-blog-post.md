@@ -3,7 +3,7 @@ slug: Terms and Conditions
 title: Terms and Conditions
 authors:
   name: John Muriu
-  title: MURU TECH
+  title: Swifttdial
   url: https://github.com/wgao19
   image_url: https://riovistakenya.com/images/team/john.png
 tags: [terms, Conditions]

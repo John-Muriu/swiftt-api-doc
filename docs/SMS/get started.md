@@ -1,7 +1,9 @@
 <!-- ---
 sidebar_position: 1
 ---
-
+---
+sidebar_position: 1
+---
 # Get Started with SMS API
 The SMS REST API is for developers who are looking for a simple and easy way to integrate SMS messaging into their apps. You can set up your account and get started with the SMS API in minutes. It's a highly-available API that sends millions of messages per day. With this API, you can:
 

@@ -27,15 +27,21 @@ Send a message to a single recipient instantly. Ideal for notifications, alerts,
 
 ---
 
-## Example Request
+# Example Request
+
+`POST`
 ```bash
-curl --location 'https://api-v2.swifttdial/api/v1/send/single/sms'
---header 'Authorization: Bearer <token>'
+curl --location 'https://api-v2.swifttdial/api/v1/send/single/sms' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
 --data '{
   "sender": "mysender",
   "msisdn": "25471234567",
   "message": "Hello world"
 }'
+
+
+
 ```
 
 ---
@@ -75,9 +81,11 @@ Send a single message to multiple recipients in one request. Useful for marketin
 ---
 
 ## Example Request
+`POST`
 ```bash
 curl --location 'https://api-v2.swifttdial.com/api/v1/send/bulk/sms'
  --header 'Authorization: Bearer <token>'
+ --header 'Content-Type: application/json' \
   --data '{
   "sender": "mysender",
   "msisdn": ["25471234567","25471234546"],
