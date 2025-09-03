@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Muru Tech Provides a variety of communication products that are everything you need to build high impact Mobile Engagement Solution <head />">
+      description="Swifttdial Provides a variety of communication products that are everything you need to build high impact Mobile Engagement Solution <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
